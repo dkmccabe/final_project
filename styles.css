@@ -1,0 +1,210 @@
+* {
+    font-family: Didot,Verdana,sans-serif;
+}
+
+header, footer {
+    width: 100%;
+}
+header {
+    height: 150px;
+    background-color: #1e4747;
+    color: #FFFFFF;
+}
+
+footer {
+    height: 110px;
+    background-color: #193c3c;
+    color: #FFFFFF;
+    padding: 16px;
+	margin: 16px 0 16px 0;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color:   #cbcbc55b;
+    /* #c1beb95b; */
+}
+  
+main {
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+}
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.headerimg {
+    width: 1000px;
+    height: auto;
+}
+  
+h1 {
+    font: 55px Snell Roundhand, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1d6767;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #136161;
+}
+
+p {
+    line-height: 50%;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+    width: 70px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: underline;
+    font: bold 15px Didot;
+    padding: 10px;
+}
+
+a {
+    color: rgb(159, 153, 153);
+}
+
+form {
+	width: 350px;
+	margin: auto;
+	/* background-color: #f2d8aa5b; */
+	padding: 16px;
+	color: #363432;
+	border-radius: 4px;
+}
+
+input,label,select,textarea {
+	display: block;
+	width: 100%;
+    text-align: left;
+}
+
+label {
+	margin: 0 0 4px 16px;
+	font-weight: bold;
+}
+
+input, select, textarea {
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border: 1px inset #193c3c;
+}
+
+fieldset {
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border-color: #193c3c;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px 0;
+}
+
+legend {
+	font-weight: bold;
+}
+
+fieldset label {
+	margin-left: 0;
+}
+
+input[type=submit] {
+	background-color: #193c3c;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+    text-align: center;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: 3px solid #193c3c;
+}
+
+input[type=submit]:hover {
+	box-shadow: -3px 3px 5px #193c3c;
+}
+
+input[type=radio]:checked + label::before {
+    content: "\2022";
+    color: #fff;
+    background: #193c3c;
+}
+
+input[type=radio]:focus{
+    outline: none;
+}
+
+input[type=radio]:focus + label::before {
+    box-shadow: 0 0 0 2px #193c3c;
+}
+
+input[type=radio] + label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+input[type=radio] {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    border-radius: 0;
+}
+
+input[type=radio] + label::before {
+    content: "\00a0";
+    font-size: 2.25em;
+    line-height: 0.65;
+    border-radius: 50%;
+    display: inline-block;  
+    height: 20px;
+    width: 22px;
+    text-align: center;
+    margin-right: 16px;
+    border: 2px solid white;
+    background-color: #fff;
+    padding-bottom: 2px;
+}
+
+nav a:hover {
+    color:#1d6767;
+}
+
+.ourmenu:hover {
+    color:#1d6767;
+}
+
+nav a.current {
+    color: #1d6767;
+ }
+
+
